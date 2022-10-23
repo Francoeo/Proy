@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabaja con nosotros</title>
+    <link rel="shortcut icon" href="./imagenes/logogs.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/styles.css" />
+  </head>
+  <body>
+    <header><a href="index.html">
+      <img class="logo" src="imagenes/logogs.png" alt="Logo" />
+    </a>
+      <nav>
+        <ul class="menu">
+          <li><a href="index.html"> Inicio </a></li>
+          <li><a href="productos.html"> Productos</a></li>
+          <li><a href="contacto.html"> Contacto</a></li>
+          <li>Trabaja con nosotros</li>
+          <li><a href="ayuda.html"> Ayuda</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr />
+  </a>
+    <div class="caja cajaTrabajaConNosotros">
+      <section>
+      <h1>Trabaja con nosotros</h1>
+      <hr>
+      <p>
+        A continuación encontrarás un fomulario para poder enviarnos todos tus
+        datos, en conjunto con tu CV.
+      </p>
+</section>
+    </div>
+
+    <div>
+      <hr/>
+      
+      <form id="formulario" class="formularioTrabajo">
+        <fieldset>
+          <legend> Trabaja con nosotros</legend>
+        <label for="nombre">
+          Nombre
+          <input type="text" name="" id="nombre" required />
+        </label>
+        <label for="apellido">
+          Apellido
+          <input type="text" name="apellido" id="apellido" required />
+        </label>
+        <label for="email">
+          E-Mail
+          <input type="email" name="email" id="email" required />
+        </label>
+        <label for="hombre">
+          <input type="radio" name="sexo" id="hombre" />Hombre
+        </label>
+        <label for="mujer">
+          <input type="radio" name="sexo" id="mujer" />Mujer
+        </label>
+        <select name="pais" id="pais">
+          <option value="" disabled selected> Seleciona un país</option>
+          <option value="">Uruguay</option>
+          <option value="">Argentina</option>
+          <option value="">Chile</option>
+          <option value="">Brasil</option>
+          <option value="">Paraguay</option>
+          <option value="">Otro</option>
+        </select>
+        <label for="mayor">
+          <input type="checkbox" name="mayor" id="mayor" required />Soy mayor de
+          18 años
+        </label>
+        <br>
+        <label for="mensaje"> <strong>Mensaje</strong> </label>
+        <br>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+        <button type="submit">Enviar</button>
+        <input type="reset" value="Borrar"> 
+      </fieldset>
+      </form>
+      <hr/>
+    </div>
+  </body>
+  <footer>
+    <p class="footerRedes">
+      Te dejamos nuestras redes sociales para que puedas contactarnos:
+    </p>
+    <img src="" alt="" />
+    <img src="" alt="" />
+    <img src="" alt="" />
+    <img src="" alt="" />
+
+    <p class="footerPrecio">
+      Los precios están expresados en dólares americanos e incluyen impuestos.
+      El valor del tipo de cambio puede variar dependiendo del día. Los
+      precios pueden ser modificados sin previo aviso y son ofertas exclusivas
+      solo por la web contado efectivo, débito automático o 1 pago con
+      tarjeta. Las promociones no son acumulables. Los productos están sujeto
+      a stock y pueden cambiar sin previo aviso. Las imágenes son meramente
+      ilustrativas.
+    </p>
+  </footer>
+</html>
